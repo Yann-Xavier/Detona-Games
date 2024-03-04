@@ -1,0 +1,111 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bb0f0f; /* Marrom escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: block; /* Para centralizar o logo */
+    margin: 0 auto; /* Para centralizar o logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centraliza os itens do menu */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para as seções do site */
+section {
+    padding: 20px;
+}
+
+/* Estilos para o vídeo */
+.video-section {
+    margin-bottom: 20px; /* Adiciona espaço entre o vídeo e as seções seguintes */
+}
+
+.video-wrapper {
+    max-width: 800px; /* Define a largura máxima do vídeo */
+    margin: 0 auto; /* Centraliza o vídeo na página */
+}
+
+.video-wrapper iframe {
+    width: 100%; /* Ocupa toda a largura do contêiner pai */
+    height: 450px; /* Altura ajustável conforme necessário */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #bb0f0f; /* Marrom escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os elementos igualmente */
+    flex-wrap: wrap; /* Quebra a linha se não couber em uma linha */
+}
+
+.footer-container > div {
+    flex-basis: 30%; /* Define a largura de cada seção do rodapé */
+    margin-bottom: 20px; /* Adiciona espaço entre as seções do rodapé */
+}
+
+.cta,
+.quick-links,
+.contact-info,
+.social-links {
+    text-align: center; /* Alinha o texto à esquerda dentro de cada seção */
+}
+
+.contact-info p {
+    margin: 5px 0; /* Adiciona espaço entre os parágrafos de informações de contato */
+}
+
+.social-links ul {
+    padding: 0;
+    list-style-type: none; /* Remove os marcadores de lista dos links de mídia social */
+}
+
+.social-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}

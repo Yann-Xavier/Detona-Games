@@ -1,0 +1,101 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bb0f0f; /* Marrom escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+header h1 {
+    margin: 0; /* Remove margem padrão do h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold; /* Estilo para o link ativo */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px; /* Adiciona espaço entre as seções */
+    text-align: center;
+}
+
+h2 {
+    color: #bb0f0f; /* Cor do título */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #bb0f0f; /* Marrom escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os elementos igualmente */
+    flex-wrap: wrap; /* Quebra a linha se não couber em uma linha */
+}
+
+.footer-container > div {
+    flex-basis: 30%; /* Define a largura de cada seção do rodapé */
+    margin-bottom: 20px; /* Adiciona espaço entre as seções do rodapé */
+}
+
+.cta,
+.quick-links,
+.contact-info,
+.social-links {
+    text-align: center; /* Alinha o texto à esquerda dentro de cada seção */
+}
+
+.contact-info p {
+    margin: 5px 0; /* Adiciona espaço entre os parágrafos de informações de contato */
+}
+
+.social-links ul {
+    padding: 0;
+    list-style-type: none; /* Remove os marcadores de lista dos links de mídia social */
+}
+
+.social-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
